@@ -3,6 +3,9 @@ import torchvision.transforms as transforms
 from torch.utils.data import DataLoader
 import torchvision.datasets as datasets
 from tqdm import tqdm
+from PIL import Image, ImageFile
+ImageFile.LOAD_TRUNCATED_IMAGES = True
+
 
 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")

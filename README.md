@@ -8,4 +8,4 @@
 Calculates the mean and standard deviation values for a given dataset (ML utility script).
 
 ## Column Counter
-Produces a bar plot with percentages of a given dataset in CSV file format.
+Produces a bar plot with data distribution of a given dataset.

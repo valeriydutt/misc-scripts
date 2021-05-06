@@ -1,3 +1,5 @@
 *.txt
 /train/*
 /data/*
+/aptos/*
+/train_resized/*
